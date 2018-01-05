@@ -38,6 +38,7 @@ ul{
     align-items: center;
     padding: 0;
     z-index: 999;
+    
 }
 
 .nav ul li{
@@ -51,12 +52,12 @@ ul{
     color: 	#e8e5e5;
     text-decoration: none;
     font-family: 'Patua One', cursive;
-
 }
 
 img{
     width: 100%;
     height: auto;
+
 }
 
 .info{
