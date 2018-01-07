@@ -1,83 +1,73 @@
-html{
-    background-image: url("/imgs/kiebackground.jpg");
-    background-position: center;
-    background-size: cover;
-}
 body{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
-.wrapper{
-    width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.header .title-membership{
-    font-size: 30px;
-    text-align: center;
-}
-
-.header .title-membership{
-    font-size: 40px;
-    font-family: 'Kanit', sans-serif;
-    margin-bottom: 15px;
-    background: #333;
-    color: aliceblue
-}
-.plans{
+.header-section .title{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: 45px;
+    background-color: #1a191c;
+    color: aliceblue;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.membership-plan{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background: #555;
-    padding: 10px;
-}
-.plan-details ul li{
-    font-family: 'News Cycle', sans-serif;
-    color: crimson;
-}
-
-ul{
-    padding: 10px;
-    margin-top: 5px;
-    margin-left: 10px;
-}
-
-.plan-title{
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Hammersmith One', sans-serif;
-    background: crimson;
-    padding: 2px;
-    border-radius: 5px;
-}
-
-.buy-plan{
-    text-align: center;
-}
-.buy-plan a{
-    border: 1px solid grey;
-    border-radius: 5px;
-    font-size: 20px; 
-    padding: 8px 35px;
-    box-sizing: border-box;
-    text-decoration: none;
-    color: cornsilk;
-    font-family: 'Prosto One', cursive;
-    box-shadow: 2px 1px black;    
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 .common{
-    border: 1px solid white;
-    padding: 10px;
-    margin-bottom: 10px;
+    margin-top: 10px;
     width: 350px;
+    height: 350px;
+    border: 1px solid gray;
 }
 
+.common h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.common ul li{
+    font-family: 'Arimo', sans-serif;
+}
 
+.common ul{
+    margin-bottom: 50px;
+}
 
+.common .membership-price{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
 
+.buy-now{ 
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+}
 
+.buy-now a{
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid 	#d81532;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1a191c;
+}
 
-
+.buy-now a:hover{
+    background-color: 	#d81532;
+    transition: background 0.8s; 
+        
+}

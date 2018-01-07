@@ -1,0 +1,83 @@
+html{
+    background-image: url("/imgs/kiebackground.jpg");
+    background-position: center;
+    background-size: cover;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header .title-membership{
+    font-size: 30px;
+    text-align: center;
+}
+
+.header .title-membership{
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 15px;
+    background: #333;
+    color: aliceblue
+}
+.plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #555;
+    padding: 10px;
+}
+.plan-details ul li{
+    font-family: 'News Cycle', sans-serif;
+    color: crimson;
+}
+
+ul{
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.plan-title{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    background: crimson;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.buy-plan{
+    text-align: center;
+}
+.buy-plan a{
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 20px; 
+    padding: 8px 35px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: cornsilk;
+    font-family: 'Prosto One', cursive;
+    box-shadow: 2px 1px black;    
+}
+
+.common{
+    border: 1px solid white;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+
+
+
+
+
+
