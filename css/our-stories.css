@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.title{
+    font-size: 55px;
+    text-align: center;
+    background-color: #051225;
+    color: aliceblue;
+}
+
+.body-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client{
+    width: 100%;
+    display: flex;
+}
+
+.client img{
+    width: 250px;
+    height: 280px;
+}
+
+.client{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px dashed;
+    margin: 5px;
+}
+
+.client h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.client p {
+    font-size: 18px;
+    padding: 25px;
+    margin-top: 10px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
