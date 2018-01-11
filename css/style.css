@@ -86,4 +86,49 @@ h2{
    text-align: justify;
    
 }
+.social-media{
+    position: relative;
+}
 
+.fa-sort-desc{
+    position: absolute;
+    left: 165px
+}
+
+#hoverable-menu a {
+    width: 70px;
+    text-align: center;
+    
+}
+
+#hoverable-menu{
+    height: 50px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    background-color: #052225;
+    box-shadow: 5px 2px 5px;
+    display: none;
+    transition: 2s;
+ }
+
+#hoverable-menu .ion-social-facebook-outline, .ion-social-twitter-outline{
+    font-size: 35px;
+}
+
+.social-media:hover #hoverable-menu{
+    display: flex;
+    justify-content: space-around;
+    z-index: 99;
+}
+
+.footer{
+    height: 100px;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #052225;
+    color: aliceblue;
+    font-family: 'Pacifico', cursive;
+}
